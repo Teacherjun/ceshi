@@ -23,7 +23,7 @@ public class EduTeacherController {
     @Autowired
     private EduTeacherService teacherService;
 
-    @GetMapping
+    @GetMapping("findAll")
     public List<EduTeacher> list(){
         return teacherService.list(null);
     }
