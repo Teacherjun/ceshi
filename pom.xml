@@ -6,11 +6,6 @@
        <!-- <module>service</module>-->
         <module>service</module>
         <module>common</module>
-        <module>common-utils</module>
-        <!-- <module>service-base</module>-->
-        <!--        <module>common</module>-->
-      <!--  <module>service</module>
-        <module>service/service-edu</module>-->
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
