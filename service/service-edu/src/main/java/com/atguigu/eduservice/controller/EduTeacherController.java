@@ -3,11 +3,9 @@ package com.atguigu.eduservice.controller;
 
 import com.atguigu.commonutils.R;
 import com.atguigu.eduservice.entity.EduTeacher;
-
 import com.atguigu.eduservice.service.EduTeacherService;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -100,5 +98,7 @@ public class EduTeacherController {
             return R.error();
         }
     }
+
+
 }
 
